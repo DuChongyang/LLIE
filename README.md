@@ -1,6 +1,26 @@
 ## [Low-Light Image and Video Enhancement Using Deep Learning: A Survey](https://arxiv.org/pdf/2104.10729.pdf)
 ![teaser](/teaser.jpg)
 
+### 一些主流的方法
+|学习策略|模型方法|文章名称|代码|平台|
+|---|---|---|---|---|
+|SL|LLNet|[LLNet: A deep autoencoder approach to natural low-light image enhancement](https://www.sciencedirect.com/science/article/abs/pii/S003132031630125X)|[Code](https://github.com/kglore/llnet_color)|Theano|
+|SL|LightenNet|[LightenNet: A Convolutional Neural Network for weakly illuminated image enhancement](https://www.sciencedirect.com/science/article/abs/pii/S0167865518300163)||MATLAB|
+|SL|Retinex-Net|[Deep Retinex Decomposition for Low-Light Enhancement](https://arxiv.org/abs/1808.04560)|[Code](https://github.com/weichen582/RetinexNet)|TensorFlow|
+|SL|MBLLEN|[MBLLEN: Low-light Image/Video Enhancement Using CNNs](http://bmvc2018.org/contents/papers/0700.pdf)|[Code](https://github.com/Lvfeifan/MBLLEN)|TensorFlow|
+|SL|KinD|[Kindling the Darkness: A Practical Low-light Image Enhancer](https://arxiv.org/abs/1905.04161)|[Code](https://github.com/zhangyhuaee/KinD)|TensorFlow|
+|SL|KinD++|[Beyond Brightening Low-light Images](https://link.springer.com/article/10.1007/s11263-020-01407-x)|[Code](https://github.com/zhangyhuaee/KinD_plus)|TensorFlow|
+|SL|TBEFN|[TBEFN: A Two-Branch Exposure-Fusion Network for Low-Light Image Enhancement](https://ieeexplore.ieee.org/abstract/document/9261119)|[Code](https://github.com/lukun199/TBEFN)|TensorFlow|
+|SL|DSLR|[DSLR: Deep Stacked Laplacian Restorer for Low-Light Image Enhancement](https://ieeexplore.ieee.org/abstract/document/9264763)|[Code](https://github.com/SeokjaeLIM/DSLR-release)|PyTorch|
+|UL|EnlightenGAN|[EnlightenGAN: Deep Light Enhancement Without Paired Supervision](https://ieeexplore.ieee.org/abstract/document/9334429)|[Code](https://github.com/VITA-Group/EnlightenGAN)|PyTorch|
+|SSL|DRBN|[From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_From_Fidelity_to_Perceptual_Quality_A_Semi-Supervised_Approach_for_Low-Light_CVPR_2020_paper.html)|[Code](https://github.com/ymmshi/dark_infer_collections/tree/main/DRBN)|PyTorch|
+|ZSL|ExCNet|[Zero-Shot Restoration of Back-lit Images Using Deep Internal Learning](https://dl.acm.org/doi/10.1145/3343031.3351069)|[Code](https://cslinzhang.github.io/ExCNet/)|PyTorch|
+|ZSL|Zero-DCE|[Zero-Reference Deep Curve Estimation for Low-Light Image Enhancemen](https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.html)|[Code](https://github.com/Li-Chongyi/Zero-DCE)|PyTorch|
+|ZSL|RRDNet|[ZERO-SHOT RESTORATION OF UNDEREXPOSED IMAGES VIA ROBUST RETINEX DECOMPOSITION](https://aaaaangel.github.io/RRDNet-Homepage/RRDNet_camera_ready.pdf)|[Code](https://github.com/aaaaangel/RRDNet)|PyTorch|
+
+
+
+
 This repository provides：
 
  **1)** a unified online platform, **LLIE-Platform http://mc.nankai.edu.cn/ll/**, that covers many popular deep learning-based LLIE methods, of which the results can be produced through a user-friendly web interface, contains a low-light image and video dataset.
