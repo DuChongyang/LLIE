@@ -20,6 +20,35 @@
 
 
 
+LLNet：数据集是从正常光照片变换得到的（高斯噪声+伽马校正）两种网络结构（同时学习和分模块学习
+
+LightenNet：Retinex、输入低光照图片，输出照度图，然后对照度图进行去噪、伽马校正，得到正常光照图
+
+Retinex-Net：三部分（分解、调整、重建）、LOL
+
+MBLLEN：结构损失+内容损失+区域损失、3D卷积、合成数据集
+
+KinD：Retinex、不同曝光下的照片、噪声也会收到光照的影响
+
+KinD++：Retinex、
+
+TBEFN：Retinex、
+
+DSLR：拉普拉斯金字塔
+
+EnlightenGAN：两个判别器、自我感知损失
+
+DRBN：Gan、结构损失内容损失对抗损失
+
+ExCNet：S曲线、输入亮度通道
+
+Zero-DCE：输入低光、输出高阶曲线再恢复为低光图片、DCE-Net、LE曲线、非参考损失
+
+RRDNet：Retinex、损失函数三部分组成
+
+
+
+
 **—————————————————————————————Original Content—————————————————————————————**
 
 This repository provides：
